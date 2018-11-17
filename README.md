@@ -4,8 +4,8 @@
 
 UJIAN TENGAH SEMESTER
 Program Studi : TEKNIK INFORMATIKA			Kelas		: TI.18.C2
-Nama		: Muhammad Rizky			Dosen		: AGUNG NUGROHO
-Nim		: 311810919				Waktu		:130 Menit
+Nama		: Asep Hendra				Dosen		: AGUNG NUGROHO
+Nim		: 311720883				Waktu		:130 Menit
 Semester	: 1					Mata Kuliah	:Algortima&Pemograman
 
 1.	Soal 1.a langkah pertama akan membaca inputan dari variable A dan B, yang akan di proses dimana X=A dan Y=B.
@@ -94,7 +94,7 @@ Jadi nilai X = 28 dan Y=28 sehingga X!=Y terpenuhi menjadi 28!=28 bernilai SALAH
 Pada soal ini inputan N akan di isi dengan 2 digit terakhir NIM masing masing mahasiswa. NIM saya 311810919 jadi nilai N akan di inputkan angka 19.
 Berikut kode lengkapnya.
 	Int N,X,T,Batas;
-	N = 19 ;
+	N = 83 ;
 	Batas = N + 100;
 	X = 20;
 	T = N;
@@ -104,20 +104,20 @@ Berikut kode lengkapnya.
 		X = X + 10;
 		}
 	Cout<< T.
-Ketika nilai N di inputkan 19, dan nilai batas menjadi 159, sehingga nilai T menjadi 19 karena sama dengan nilai N. Dilihat dari  perintah while akan terjadi perulangan nilai T sampai kurang dari sama dengan nilai Batas.
+Ketika nilai N di inputkan 83, dan nilai batas menjadi 223, sehingga nilai T menjadi 83 karena sama dengan nilai N. Dilihat dari  perintah while akan terjadi perulangan nilai T sampai kurang dari sama dengan nilai Batas.
 Pada looping pertama
-N = 19
+N = 83
 Hasilnya :
-T = T + X   				T = 19 + 20	= 39
+T = T + X   				T = 83 + 20	= 103
 X = X + 10				X = 20 + 10	= 30
 Pada looping kedua
-T = T + X   				T = 39 + 30	= 69
+T = T + X   				T = 103 + 30	= 133
 X = X + 10				X = 30 + 10	= 40
 Pada looping ketiga
-T = T + X   				T = 69 + 40	= 109
+T = T + X   				T = 133 + 40	= 173
 X = X + 10				X = 40 + 10	= 50
 Pada looping ke empat
-T = T + X   				T = 109 + 50	= 159
+T = T + X   				T = 173 + 50	= 223
 X = X + 10				X = 50 + 10	= 60
-Hasil T = 159 Karena saat masuk ke looping selanjutnya nilai T sudah 159 <= 119 dan bernilai FALSE sehingga looping terhenti dinilai 159
+Hasil T = 223 Karena saat masuk ke looping selanjutnya nilai T sudah 223 <= 119 dan bernilai FALSE sehingga looping terhenti dinilai 223
 
