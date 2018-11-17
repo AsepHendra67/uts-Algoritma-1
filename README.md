@@ -1,6 +1,6 @@
 # uts-Algoritma-1
 
-# UTS Algoritma 1
+
 
 UJIAN TENGAH SEMESTER
 Program Studi : TEKNIK INFORMATIKA			Kelas		: TI.18.C2
